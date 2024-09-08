@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "elfheader.h": "c",
+        "elfsection.h": "c",
+        "main.h": "c",
+        "elfsymbol.h": "c",
+        "elf.h": "c",
+        "typeinfo": "c",
+        "string.h": "c",
+        "stdlib.h": "c"
+    }
+}
