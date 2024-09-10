@@ -13,7 +13,7 @@ typedef struct
 {
     int index;
     Elf32_Shdr* header;
-    int* loadedAddress;
+    char* loadedAddress;
     char*name_;
     bool loaded;
 }section_t;
@@ -26,7 +26,6 @@ typedef struct
 {
     int numberOfSections;
     int* sectionIndex;
-    sections_t* sections;
 }subSections_t;
 typedef struct 
 {
